@@ -1,0 +1,13 @@
+train: /home/muna/Documents/PPE/Construction-Site-Safety-PPE-Detection/transfer_learning/data/train/images
+val: /home/muna/Documents/PPE/Construction-Site-Safety-PPE-Detection/transfer_learning/data/valid/images
+test: /home/muna/Documents/PPE/Construction-Site-Safety-PPE-Detection/transfer_learning/data/test/images
+
+nc: 16
+names: ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone', 'Safety Vest', 'machinery', 'vehicle', 'Gloves', 'NO-Gloves' ,'Glasses', 'NO-Glasses', 'Safety shoes', 'NO-Safety shoes' ]
+
+roboflow:
+  workspace: roboflow-universe-projects
+  project: construction-site-safety
+  version: 28
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety/dataset/28
